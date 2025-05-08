@@ -114,8 +114,8 @@ function formatLifespan(person) {
 function renderTree(data) {
   const width = 3000; // Ширина дерева
   const height = 5500; // Высота дерева
-  const yScale = 1.2; // Масштабирование горизонта
-  const xScale = 1.2; // Масштабирование вертикали
+  const yScale = 2; // Масштабирование горизонта
+  const xScale = 1.5; // Масштабирование вертикали
 
   const svg = d3
     .select("#tree") // SVG-контейнер
@@ -212,10 +212,9 @@ function centerTree(node, svg, g) {
   // Применение трансформации
   svg
     .transition()
-    .duration(500)
     .call(
       d3.zoom().transform,
-      d3.zoomIdentity.translate(translateX - 2000, translateY - 1000).scale(scale)
+      d3.zoomIdentity.translate(translateX - 2000, translateY - 800).scale(0.8)
     );
 }
 

@@ -173,10 +173,34 @@
                                                                                             "description": "",
                                                                                             "photo": "",
                                                                                             "spouse": {
-                                                                                              "name": "",
+                                                                                              "name": "У.",
                                                                                               "description": "",
                                                                                               "photo": "",
-                                                                                              "children": []
+                                                                                              "children": [
+                                                                                                {
+                                                                                                  "name": "Гена",
+                                                                                                  "description": "",
+                                                                                                  "photo": "",
+                                                                                                  "spouse": {
+                                                                                                    "name": "",
+                                                                                                    "description": "",
+                                                                                                    "photo": "",
+                                                                                                    "children": [
+                                                                                                      {
+                                                                                                        "name": "Алексей",
+                                                                                                        "description": "",
+                                                                                                        "photo": "",
+                                                                                                        "spouse": {
+                                                                                                          "name": "",
+                                                                                                          "description": "",
+                                                                                                          "photo": "",
+                                                                                                          "children": []
+                                                                                                        }
+                                                                                                      }
+                                                                                                    ]
+                                                                                                  }
+                                                                                                }
+                                                                                              ]
                                                                                             }
                                                                                           },
                                                                                           {
@@ -184,10 +208,22 @@
                                                                                             "description": "",
                                                                                             "photo": "",
                                                                                             "spouse": {
-                                                                                              "name": "",
+                                                                                              "name": "Б.",
                                                                                               "description": "",
                                                                                               "photo": "",
-                                                                                              "children": []
+                                                                                              "children": [
+                                                                                                {
+                                                                                                  "name": "Лариса",
+                                                                                                  "description": "",
+                                                                                                  "photo": "",
+                                                                                                  "spouse": {
+                                                                                                    "name": "",
+                                                                                                    "description": "",
+                                                                                                    "photo": "",
+                                                                                                    "children": []
+                                                                                                  }
+                                                                                                }
+                                                                                              ]
                                                                                             }
                                                                                           },
                                                                                           {
@@ -206,6 +242,17 @@
                                                                                     },
                                                                                     {
                                                                                       "name": "Андрей",
+                                                                                      "description": "",
+                                                                                      "photo": "",
+                                                                                      "spouse": {
+                                                                                        "name": "",
+                                                                                        "description": "",
+                                                                                        "photo": "",
+                                                                                        "children": []
+                                                                                      }
+                                                                                    },
+                                                                                    {
+                                                                                      "name": "Владимир",
                                                                                       "description": "",
                                                                                       "photo": "",
                                                                                       "spouse": {
@@ -450,12 +497,148 @@
                                                                                       }
                                                                                     },
                                                                                     {
-                                                                                      "name": "Липа",
+                                                                                      "name": "Валя",
                                                                                       "description": "",
                                                                                       "photo": "",
                                                                                       "spouse": {
                                                                                         "name": "Михаил",
                                                                                         "description": "Михаил Иванович Ихенов",
+                                                                                        "photo": "",
+                                                                                        "children": [
+                                                                                          {
+                                                                                            "name": "Леонид",
+                                                                                            "description": "",
+                                                                                            "photo": "",
+                                                                                            "spouse": {
+                                                                                              "name": "",
+                                                                                              "description": "",
+                                                                                              "photo": "",
+                                                                                              "children": []
+                                                                                            }
+                                                                                          },
+                                                                                          {
+                                                                                            "name": "Ирина",
+                                                                                            "description": "",
+                                                                                            "photo": "",
+                                                                                            "spouse": {
+                                                                                              "name": "",
+                                                                                              "description": "",
+                                                                                              "photo": "",
+                                                                                              "children": []
+                                                                                            }
+                                                                                          },
+                                                                                          {
+                                                                                            "name": "Лида",
+                                                                                            "description": "",
+                                                                                            "photo": "",
+                                                                                            "spouse": {
+                                                                                              "name": "",
+                                                                                              "description": "",
+                                                                                              "photo": "",
+                                                                                              "children": []
+                                                                                            }
+                                                                                          },
+                                                                                          {
+                                                                                            "name": "Ольга",
+                                                                                            "description": "",
+                                                                                            "photo": "",
+                                                                                            "spouse": {
+                                                                                              "name": "",
+                                                                                              "description": "",
+                                                                                              "photo": "",
+                                                                                              "children": []
+                                                                                            }
+                                                                                          }
+                                                                                        ]
+                                                                                      }
+                                                                                    },
+                                                                                    {
+                                                                                      "name": "Липа",
+                                                                                      "description": "",
+                                                                                      "photo": "",
+                                                                                      "spouse": {
+                                                                                        "name": "Михаил",
+                                                                                        "description": "Глухов",
+                                                                                        "photo": "",
+                                                                                        "children": [
+                                                                                          {
+                                                                                            "name": "Сергей",
+                                                                                            "description": "",
+                                                                                            "photo": "",
+                                                                                            "spouse": {
+                                                                                              "name": "",
+                                                                                              "description": "",
+                                                                                              "photo": "",
+                                                                                              "children": [
+                                                                                                {
+                                                                                                  "name": "Женя",
+                                                                                                  "description": "",
+                                                                                                  "photo": "",
+                                                                                                  "spouse": {
+                                                                                                    "name": "",
+                                                                                                    "description": "",
+                                                                                                    "photo": "",
+                                                                                                    "children": []
+                                                                                                  }
+                                                                                                },
+                                                                                                {
+                                                                                                  "name": "Миша",
+                                                                                                  "description": "",
+                                                                                                  "photo": "",
+                                                                                                  "spouse": {
+                                                                                                    "name": "",
+                                                                                                    "description": "",
+                                                                                                    "photo": "",
+                                                                                                    "children": []
+                                                                                                  }
+                                                                                                }
+                                                                                              ]
+                                                                                            }
+                                                                                          },
+                                                                                          {
+                                                                                            "name": "Валя",
+                                                                                            "description": "",
+                                                                                            "photo": "",
+                                                                                            "spouse": {
+                                                                                              "name": "",
+                                                                                              "description": "",
+                                                                                              "photo": "",
+                                                                                              "children": []
+                                                                                            }
+                                                                                          },
+                                                                                          {
+                                                                                            "name": "Лена",
+                                                                                            "description": "",
+                                                                                            "photo": "",
+                                                                                            "spouse": {
+                                                                                              "name": "",
+                                                                                              "description": "",
+                                                                                              "photo": "",
+                                                                                              "children": [
+                                                                                                {
+                                                                                                  "name": "Андрей",
+                                                                                                  "description": "",
+                                                                                                  "photo": "",
+                                                                                                  "spouse": {
+                                                                                                    "name": "",
+                                                                                                    "description": "",
+                                                                                                    "photo": "",
+                                                                                                    "children": []
+                                                                                                  }
+                                                                                                }
+                                                                                              ]
+                                                                                            }
+                                                                                          }
+                                                                                        ]
+                                                                                      }
+                                                                                    },
+                                                                                    {
+                                                                                      "name": "Леонид",
+                                                                                      "description": "в ином источнике не указан",
+                                                                                      "photo": "",
+                                                                                      "spouse": {
+                                                                                        "name": "",
+                                                                                        "description": "",
                                                                                         "photo": "",
                                                                                         "children": []
                                                                                       }
@@ -473,8 +656,8 @@
                                                                                   "photo": "",
                                                                                   "children": [
                                                                                     {
-                                                                                      "name": "Саня",
-                                                                                      "description": "",
+                                                                                      "name": "Александра",
+                                                                                      "description": "Дудеева",
                                                                                       "birth": 1909,
                                                                                       "photo": "",
                                                                                       "spouse": {
@@ -563,7 +746,7 @@
                                                                                       }
                                                                                     },
                                                                                     {
-                                                                                      "name": "Баяндай",
+                                                                                      "name": "Багандай",
                                                                                       "description": "",
                                                                                       "birth": 1919,
                                                                                       "photo": "",
@@ -611,7 +794,19 @@
                                                                                                     "name": "",
                                                                                                     "description": "",
                                                                                                     "photo": "",
-                                                                                                    "children": []
+                                                                                                    "children": [
+                                                                                                      {
+                                                                                                        "name": "Коля",
+                                                                                                        "description": "",
+                                                                                                        "photo": "",
+                                                                                                        "spouse": {
+                                                                                                          "name": "",
+                                                                                                          "description": "",
+                                                                                                          "photo": "",
+                                                                                                          "children": []
+                                                                                                        }
+                                                                                                      }
+                                                                                                    ]
                                                                                                   }
                                                                                                 }
                                                                                               ]
@@ -634,7 +829,19 @@
                                                                                                     "name": "",
                                                                                                     "description": "",
                                                                                                     "photo": "",
-                                                                                                    "children": []
+                                                                                                    "children": [
+                                                                                                      {
+                                                                                                        "name": "Алан",
+                                                                                                        "description": "",
+                                                                                                        "photo": "",
+                                                                                                        "spouse": {
+                                                                                                          "name": "",
+                                                                                                          "description": "",
+                                                                                                          "photo": "",
+                                                                                                          "children": []
+                                                                                                        }
+                                                                                                      }
+                                                                                                    ]
                                                                                                   }
                                                                                                 },
                                                                                                 {
@@ -692,7 +899,19 @@
                                                                                                     "name": "",
                                                                                                     "description": "",
                                                                                                     "photo": "",
-                                                                                                    "children": []
+                                                                                                    "children": [
+                                                                                                      {
+                                                                                                        "name": "Аня",
+                                                                                                        "description": "",
+                                                                                                        "photo": "",
+                                                                                                        "spouse": {
+                                                                                                          "name": "",
+                                                                                                          "description": "",
+                                                                                                          "photo": "",
+                                                                                                          "children": []
+                                                                                                        }
+                                                                                                      }
+                                                                                                    ]
                                                                                                   }
                                                                                                 },
                                                                                                 {
@@ -741,7 +960,7 @@
                                                                                                   }
                                                                                                 },
                                                                                                 {
-                                                                                                  "name": "Лев",
+                                                                                                  "name": "Лева",
                                                                                                   "description": "",
                                                                                                   "photo": "",
                                                                                                   "spouse": {
@@ -781,7 +1000,7 @@
                                                                                           "children": [
                                                                                             {
                                                                                               "name": "Зунаст / Зунка",
-                                                                                              "description": "",
+                                                                                              "description": "в иных источниках не указана",
                                                                                               "photo": "",
                                                                                               "spouse": {
                                                                                                 "name": "",
@@ -851,7 +1070,7 @@
                                                                                         },
                                                                                         {
                                                                                           "name": "Света",
-                                                                                          "description": "Сахинова. с Валерой Сахиновым",
+                                                                                          "description": "Сахинова. с Валерой Сахиновым. В ином источнике указана как ребенок Сократа.",
                                                                                           "photo": "",
                                                                                           "children": [
                                                                                             {
@@ -1010,18 +1229,75 @@
                                                                                                     "name": "",
                                                                                                     "description": "",
                                                                                                     "photo": "",
-                                                                                                    "children": []
+                                                                                                    "children": [
+                                                                                                      {
+                                                                                                        "name": "Лена",
+                                                                                                        "description": "",
+                                                                                                        "photo": "",
+                                                                                                        "spouse": {
+                                                                                                          "name": "",
+                                                                                                          "description": "",
+                                                                                                          "photo": "",
+                                                                                                          "children": []
+                                                                                                        }
+                                                                                                      },
+                                                                                                      {
+                                                                                                        "name": "Настя",
+                                                                                                        "description": "",
+                                                                                                        "photo": "",
+                                                                                                        "spouse": {
+                                                                                                          "name": "",
+                                                                                                          "description": "",
+                                                                                                          "photo": "",
+                                                                                                          "children": []
+                                                                                                        }
+                                                                                                      }
+                                                                                                    ]
                                                                                                   }
                                                                                                 },
                                                                                                 {
-                                                                                                  "name": "Юоя",
+                                                                                                  "name": "Юля",
                                                                                                   "description": "",
                                                                                                   "photo": "",
                                                                                                   "spouse": {
                                                                                                     "name": "",
                                                                                                     "description": "",
                                                                                                     "photo": "",
-                                                                                                    "children": []
+                                                                                                    "children": [
+                                                                                                      {
+                                                                                                        "name": "Андрей",
+                                                                                                        "description": "",
+                                                                                                        "photo": "",
+                                                                                                        "spouse": {
+                                                                                                          "name": "",
+                                                                                                          "description": "",
+                                                                                                          "photo": "",
+                                                                                                          "children": []
+                                                                                                        }
+                                                                                                      },
+                                                                                                      {
+                                                                                                        "name": "Артем",
+                                                                                                        "description": "",
+                                                                                                        "photo": "",
+                                                                                                        "spouse": {
+                                                                                                          "name": "",
+                                                                                                          "description": "",
+                                                                                                          "photo": "",
+                                                                                                          "children": []
+                                                                                                        }
+                                                                                                      },
+                                                                                                      {
+                                                                                                        "name": "Мария",
+                                                                                                        "description": "",
+                                                                                                        "photo": "",
+                                                                                                        "spouse": {
+                                                                                                          "name": "",
+                                                                                                          "description": "",
+                                                                                                          "photo": "",
+                                                                                                          "children": []
+                                                                                                        }
+                                                                                                      }
+                                                                                                    ]
                                                                                                   }
                                                                                                 },
                                                                                                 {
@@ -1032,7 +1308,19 @@
                                                                                                     "name": "",
                                                                                                     "description": "",
                                                                                                     "photo": "",
-                                                                                                    "children": []
+                                                                                                    "children": [
+                                                                                                      {
+                                                                                                        "name": "Даша",
+                                                                                                        "description": "",
+                                                                                                        "photo": "",
+                                                                                                        "spouse": {
+                                                                                                          "name": "",
+                                                                                                          "description": "",
+                                                                                                          "photo": "",
+                                                                                                          "children": []
+                                                                                                        }
+                                                                                                      }
+                                                                                                    ]
                                                                                                   }
                                                                                                 },
                                                                                                 {
@@ -1056,6 +1344,17 @@
                                                                                                     "photo": "",
                                                                                                     "children": []
                                                                                                   }
+                                                                                                },
+                                                                                                {
+                                                                                                  "name": "Саша",
+                                                                                                  "description": "",
+                                                                                                  "photo": "",
+                                                                                                  "spouse": {
+                                                                                                    "name": "",
+                                                                                                    "description": "",
+                                                                                                    "photo": "",
+                                                                                                    "children": []
+                                                                                                  }
                                                                                                 }
                                                                                               ]
                                                                                             }
@@ -1065,14 +1364,26 @@
                                                                                     },
                                                                                     {
                                                                                       "name": "Шарьюр",
-                                                                                      "description": "бездетна",
+                                                                                      "description": "бездетна по одним данным. по другим есть дочь",
                                                                                       "birth": 1915,
                                                                                       "photo": "",
                                                                                       "spouse": {
                                                                                         "name": "",
                                                                                         "description": "",
                                                                                         "photo": "",
-                                                                                        "children": []
+                                                                                        "children": [
+                                                                                          {
+                                                                                            "name": "Тоня",
+                                                                                            "description": "",
+                                                                                            "photo": "",
+                                                                                            "spouse": {
+                                                                                              "name": "",
+                                                                                              "description": "",
+                                                                                              "photo": "",
+                                                                                              "children": []
+                                                                                            }
+                                                                                          }
+                                                                                        ]
                                                                                       }
                                                                                     }
                                                                                   ]
@@ -1083,7 +1394,7 @@
                                                                                 "description": "",
                                                                                 "photo": "",
                                                                                 "spouse": {
-                                                                                  "name": "Анна",
+                                                                                  "name": "Анна / Арина",
                                                                                   "description": "Анна Никифорова с детьми Петром и Мариной Хабалтуевыми",
                                                                                   "photo": "",
                                                                                   "children": [
@@ -1093,7 +1404,7 @@
                                                                                       "birth": 1924,
                                                                                       "photo": "",
                                                                                       "spouse": {
-                                                                                        "name": "",
+                                                                                        "name": "Сметанин",
                                                                                         "description": "",
                                                                                         "photo": "",
                                                                                         "children": [
@@ -1135,7 +1446,7 @@
                                                                                       }
                                                                                     },
                                                                                     {
-                                                                                      "name": "Гоша",
+                                                                                      "name": "Георгий",
                                                                                       "description": "",
                                                                                       "birth": 1926,
                                                                                       "death": 2001,
@@ -1209,7 +1520,19 @@
                                                                                               "name": "",
                                                                                               "description": "",
                                                                                               "photo": "",
-                                                                                              "children": []
+                                                                                              "children": [
+                                                                                                {
+                                                                                                  "name": "Ирина",
+                                                                                                  "description": "",
+                                                                                                  "photo": "",
+                                                                                                  "spouse": {
+                                                                                                    "name": "",
+                                                                                                    "description": "",
+                                                                                                    "photo": "",
+                                                                                                    "children": []
+                                                                                                  }
+                                                                                                }
+                                                                                              ]
                                                                                             }
                                                                                           },
                                                                                           {
@@ -1276,7 +1599,19 @@
                                                                                               "name": "",
                                                                                               "description": "",
                                                                                               "photo": "",
-                                                                                              "children": []
+                                                                                              "children": [
+                                                                                                {
+                                                                                                  "name": "Георгий",
+                                                                                                  "description": "",
+                                                                                                  "photo": "",
+                                                                                                  "spouse": {
+                                                                                                    "name": "",
+                                                                                                    "description": "",
+                                                                                                    "photo": "",
+                                                                                                    "children": []
+                                                                                                  }
+                                                                                                }
+                                                                                              ]
                                                                                             }
                                                                                           }
                                                                                         ]
@@ -1302,7 +1637,7 @@
                                                                                               "photo": "",
                                                                                               "children": [
                                                                                                 {
-                                                                                                  "name": "Гоша",
+                                                                                                  "name": "Костя",
                                                                                                   "description": "",
                                                                                                   "photo": "",
                                                                                                   "spouse": {
@@ -1325,7 +1660,7 @@
                                                                                               "photo": "",
                                                                                               "children": [
                                                                                                 {
-                                                                                                  "name": "Костя",
+                                                                                                  "name": "Мария",
                                                                                                   "description": "",
                                                                                                   "photo": "",
                                                                                                   "spouse": {
@@ -1365,10 +1700,22 @@
                                                                                                   "description": "",
                                                                                                   "photo": "",
                                                                                                   "spouse": {
-                                                                                                    "name": "",
+                                                                                                    "name": "Хориев",
                                                                                                     "description": "",
                                                                                                     "photo": "",
-                                                                                                    "children": []
+                                                                                                    "children": [
+                                                                                                      {
+                                                                                                        "name": "Амелия",
+                                                                                                        "description": "",
+                                                                                                        "photo": "",
+                                                                                                        "spouse": {
+                                                                                                          "name": "",
+                                                                                                          "description": "",
+                                                                                                          "photo": "",
+                                                                                                          "children": []
+                                                                                                        }
+                                                                                                      }
+                                                                                                    ]
                                                                                                   }
                                                                                                 },
                                                                                                 {
@@ -1379,18 +1726,53 @@
                                                                                                     "name": "",
                                                                                                     "description": "",
                                                                                                     "photo": "",
-                                                                                                    "children": []
+                                                                                                    "children": [
+                                                                                                      {
+                                                                                                        "name": "Тамир",
+                                                                                                        "description": "",
+                                                                                                        "photo": "",
+                                                                                                        "spouse": {
+                                                                                                          "name": "",
+                                                                                                          "description": "",
+                                                                                                          "photo": "",
+                                                                                                          "children": []
+                                                                                                        }
+                                                                                                      }
+                                                                                                    ]
                                                                                                   }
                                                                                                 },
                                                                                                 {
-                                                                                                  "name": "Люба",
+                                                                                                  "name": "Лариса",
                                                                                                   "description": "",
                                                                                                   "photo": "",
                                                                                                   "spouse": {
-                                                                                                    "name": "",
+                                                                                                    "name": "Борисова",
                                                                                                     "description": "",
                                                                                                     "photo": "",
-                                                                                                    "children": []
+                                                                                                    "children": [
+                                                                                                      {
+                                                                                                        "name": "Чингис",
+                                                                                                        "description": "",
+                                                                                                        "photo": "",
+                                                                                                        "spouse": {
+                                                                                                          "name": "",
+                                                                                                          "description": "",
+                                                                                                          "photo": "",
+                                                                                                          "children": []
+                                                                                                        }
+                                                                                                      },
+                                                                                                      {
+                                                                                                        "name": "Егор",
+                                                                                                        "description": "",
+                                                                                                        "photo": "",
+                                                                                                        "spouse": {
+                                                                                                          "name": "",
+                                                                                                          "description": "",
+                                                                                                          "photo": "",
+                                                                                                          "children": []
+                                                                                                        }
+                                                                                                      }
+                                                                                                    ]
                                                                                                   }
                                                                                                 }
                                                                                               ]
@@ -1431,7 +1813,7 @@
                                                                                             }
                                                                                           },
                                                                                           {
-                                                                                            "name": "Алла",
+                                                                                            "name": "Альбина",
                                                                                             "description": "",
                                                                                             "photo": "",
                                                                                             "spouse": {
@@ -1481,7 +1863,7 @@
                                                                                     },
                                                                                     {
                                                                                       "name": "Петр",
-                                                                                      "description": "",
+                                                                                      "description": "в другом источнике его нет",
                                                                                       "photo": "",
                                                                                       "spouse": {
                                                                                         "name": "Мария",
@@ -1639,7 +2021,7 @@
                                                                                     },
                                                                                     {
                                                                                       "name": "Марина",
-                                                                                      "description": "",
+                                                                                      "description": "в другом источнике ее нет",
                                                                                       "birth": 1924,
                                                                                       "photo": "",
                                                                                       "spouse": {
