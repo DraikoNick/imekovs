@@ -112,8 +112,8 @@ function formatLifespan(person) {
  * Генерация дерева с использованием D3.js
  */
 function renderTree(data) {
-  const width = 3000; // Ширина дерева
-  const height = 5000; // Высота дерева
+  const width = 2500; // Ширина дерева
+  const height = 4500; // Высота дерева
   const yScale = 1; // Масштабирование горизонта
   const xScale = 1; // Масштабирование вертикали
 
@@ -122,7 +122,8 @@ function renderTree(data) {
     .attr("width", width)
     .attr("height", height)
     .call(
-      d3.zoom()
+      d3
+        .zoom()
         .scaleExtent([0.5, 2]) // Масштабирование от 0.5x до 2x
         .on("zoom", (event) => {
           g.attr("transform", event.transform); // Перемещение дерева
@@ -202,15 +203,20 @@ function renderTree(data) {
 function centerTree(node, svg, g) {
   const svgWidth = parseInt(svg.attr("width"));
   const svgHeight = parseInt(svg.attr("height"));
-  const x = node.y;
-  const y = node.x;
-  const scale = 1; // Масштаб стартовый
-  const translate = [svgWidth / 2 - x * scale, svgHeight / 2 - y * scale];
+  const scale = 1; // Стартовый масштаб
 
-  svg.transition().duration(500).call(
-    d3.zoom().transform,
-    d3.zoomIdentity.translate(translate[0], translate[1]).scale(scale)
-  );
+  // Вычисляем координаты центра
+  const translateX = svgWidth / 2 - node.y;
+  const translateY = svgHeight / 2 - node.x;
+
+  // Применение трансформации
+  svg
+    .transition()
+    .duration(500)
+    .call(
+      d3.zoom().transform,
+      d3.zoomIdentity.translate(translateX - 1000, translateY).scale(scale)
+    );
 }
 
 /**

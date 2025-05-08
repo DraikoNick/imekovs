@@ -16,7 +16,7 @@ body {
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 450px;
+    width: 300px;
   }
   
   #info-panel h2 {
@@ -68,4 +68,37 @@ body {
   .link {
     stroke: #ccc;
     stroke-width: 1.5;
+  }
+
+  #legend {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    background: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    color: #333;
+    z-index: 999; /* Легенда отображается поверх SVG */
+  }
+  
+  #legend .legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  #legend .legend-item:last-child {
+    margin-bottom: 0; /* Удаляем отступ для последнего элемента */
+  }
+  
+  #legend .color-box {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
   }
