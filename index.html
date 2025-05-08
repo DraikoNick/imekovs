@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Генеалогическое древо</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Контейнер для информации о текущей выбранной ноде -->
+  <div id="info-panel">
+    <h2 id="info-name">Выберите ноду...</h2>
+    <img id="info-photo" src="assets/default.jpg" alt="Фото" />
+    <p id="info-description"></p>
+  </div>
+
+  <!-- Контейнер для дерева -->
+  <div id="tree-container">
+    <svg id="tree"></svg>
+  </div>
+
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

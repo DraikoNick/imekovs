@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  #info-panel {
+    position: fixed;
+    z-index: 1000;
+    top: 10px;
+    left: 10px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 450px;
+  }
+  
+  #info-panel h2 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  #info-panel img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 10px;
+  }
+  
+  #info-panel p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  #tree-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  svg {
+    touch-action: none; /* Для правильной обработки сенсорных событий */
+  }
+  
+  .node circle {
+    stroke: #555;
+    stroke-width: 2;
+  }
+  
+  .spouse-node circle {
+    fill: #808080;
+  }
+  
+  .node text {
+    font-size: 12px;
+    fill: #333;
+    font-weight: bold;
+  }
+  
+  .link {
+    stroke: #ccc;
+    stroke-width: 1.5;
+  }
