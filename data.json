@@ -2526,7 +2526,17 @@
                                                                                                                 "name": "",
                                                                                                                 "description": "",
                                                                                                                 "photo": "",
-                                                                                                                "children": []
+                                                                                                                "children": [{
+                                                                                                                          "name": "Сережа",
+                                                                                                                          "description": "",
+                                                                                                                          "photo": "",
+                                                                                                                          "spouse": {
+                                                                                                                            "name": "",
+                                                                                                                            "description": "",
+                                                                                                                            "photo": "",
+                                                                                                                            "children": []
+                                                                                                                          }
+                                                                                                                        }]
                                                                                                               }
                                                                                                             },
                                                                                                             {
@@ -2572,25 +2582,16 @@
                                                                                                                     }
                                                                                                                   },
                                                                                                                   {
-                                                                                                                    "name": "Саша",
+                                                                                                                    "name": "Александра",
                                                                                                                     "description": "",
+                                                                                                                    "birth":2018,
                                                                                                                     "photo": "",
                                                                                                                     "spouse": {
                                                                                                                       "name": "",
                                                                                                                       "description": "",
                                                                                                                       "photo": "",
                                                                                                                       "children": [
-                                                                                                                        {
-                                                                                                                          "name": "Сережа",
-                                                                                                                          "description": "",
-                                                                                                                          "photo": "",
-                                                                                                                          "spouse": {
-                                                                                                                            "name": "",
-                                                                                                                            "description": "",
-                                                                                                                            "photo": "",
-                                                                                                                            "children": []
-                                                                                                                          }
-                                                                                                                        }
+                                                                                                                        
                                                                                                                       ]
                                                                                                                     }
                                                                                                                   }
