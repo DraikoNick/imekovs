@@ -3253,12 +3253,46 @@
                                                                                                 {
                                                                                                   "name": "Федор",
                                                                                                   "description": "",
-                                                                                                  "photo": "",
+                                                                                                  "photo": "assets/Nikita-parentsIgor-Fedor.jpg",
                                                                                                   "spouse": {
-                                                                                                    "name": "",
-                                                                                                    "description": "",
-                                                                                                    "photo": "",
-                                                                                                    "children": []
+                                                                                                    "name": "Нар-Оюу",
+                                                                                                    "description": "Наранбаатар. Композитор, певица. Монголия",
+                                                                                                    "photo": "assets/NarOyuNarabataar.jpg",
+                                                                                                    "children": [
+                                                                                                      {
+                                                                                                        "name": "?",
+                                                                                                        "description": "",
+                                                                                                        "photo": "",
+                                                                                                        "spouse": {
+                                                                                                          "name": "",
+                                                                                                          "description": "",
+                                                                                                          "photo": "",
+                                                                                                          "children": []
+                                                                                                        }
+                                                                                                      },
+                                                                                                      {
+                                                                                                        "name": "?",
+                                                                                                        "description": "",
+                                                                                                        "photo": "",
+                                                                                                        "spouse": {
+                                                                                                          "name": "",
+                                                                                                          "description": "",
+                                                                                                          "photo": "",
+                                                                                                          "children": []
+                                                                                                        }
+                                                                                                      },
+                                                                                                      {
+                                                                                                        "name": "?",
+                                                                                                        "description": "",
+                                                                                                        "photo": "",
+                                                                                                        "spouse": {
+                                                                                                          "name": "",
+                                                                                                          "description": "",
+                                                                                                          "photo": "",
+                                                                                                          "children": []
+                                                                                                        }
+                                                                                                      }
+                                                                                                    ]
                                                                                                   }
                                                                                                 },
                                                                                                 {
