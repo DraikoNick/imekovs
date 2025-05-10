@@ -46,6 +46,22 @@ body {
   margin-top: 10px;
 }
 
+#close-info-panel {
+  display: block;
+  margin: 15px auto 0 auto;
+  background: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+#close-info-panel:hover {
+  background: #0056b3;
+}
+
 #tree-container {
   flex: 1;
   display: flex;
@@ -79,6 +95,7 @@ svg {
   stroke-width: 1.5;
 }
 
+/* Легенда */
 #legend {
   display: flex;
   flex-direction: column;
@@ -137,41 +154,87 @@ svg {
   cursor: pointer;
 }
 
-  #info-panel {
-    width: 150px;
-    top: auto;
-    /* Отменяем верхний отступ */
-    bottom: 10px;
-    /* Прижимаем окно с информацией к нижней части экрана */
-    right: 10px;
-  }
+#legend {
+  transform: translateY(140%);
+  /* Скрываем легенду за пределы экрана */
+}
 
-  #info-panel img {
-    width: 150px;
-    height: 150px;
-  }
+#toggle-legend:checked~#legend {
+  transform: translateY(0);
+  /* Показываем легенду при выборе чекбокса */
+}
 
-  #info-panel h2 {
-    font-size: 14px;
-  }
+#legend-button {
+  display: block;
+  /* Показываем кнопку на мобильных устройствах */
+}
 
-  #info-panel p {
-    font-size: 12px;
-  }
+/* Меню */
+#menu-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: fixed;
+  top: 60px;
+  left: 10px;
+  background: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  color: #333;
+  z-index: 1200;
+  /* Меню перекрывает все окна */
+  transition: transform 0.3s ease;
+  transform: translateX(-140%);
+}
 
-  #legend {
-    transform: translateY(140%);
-    /* Скрываем легенду за пределы экрана */
-    right: 10px;
-  }
+#menu-panel ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
-  #toggle-legend:checked~#legend {
-    transform: translateY(0);
-    /* Показываем легенду при выборе чекбокса */
-  }
+#menu-panel ul li {
+  margin-bottom: 5px;
+}
 
-  #legend-button {
-    display: block;
-    /* Показываем кнопку на мобильных устройствах */
-  }
+#menu-panel ul li:last-child {
+  margin-bottom: 0;
+  /* Удаляем отступ для последнего элемента */
+}
 
+#menu-panel ul li a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+#menu-panel ul li a:hover {
+  text-decoration: underline;
+}
+
+#toggle-menu {
+  display: none;
+  /* Прячем чекбокс */
+}
+
+#menu-button {
+  display: block;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  z-index: 1200;
+  /* Кнопка отображается поверх всех окон */
+  cursor: pointer;
+}
+
+#toggle-menu:checked~#menu-panel {
+  transform: translateX(0);
+  /* Показываем меню при выборе чекбокса */
+}

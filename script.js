@@ -2,18 +2,33 @@
 fetch("data.json")
   .then((response) => response.json())
   .then((data) => {
-    const convertedData = convertData(data);
-    renderTree(convertedData); // Отрисовываем дерево
+    const urlParams = new URLSearchParams(window.location.search);
+    const untilEnd = urlParams.get("untilEnd") === "true";
+    const convertedData = convertData(data, untilEnd);
+    const treeStart = urlParams.get("treeStart");
+    const width = urlParams.get("width") || 3000;
+    const height = urlParams.get("height") || 6500;
+    const yScale = urlParams.get("yScale") || 2;
+    const xScale = urlParams.get("xScale") || 1.5;
+    if (treeStart) {
+      const targetNode = findNodeByTreeStart(convertedData, treeStart);
+      if (targetNode) {
+        renderTree(targetNode, width, height, yScale, xScale); // Отрисовываем дерево с указанным началом
+        return;
+      }
+    }
+    renderTree(convertedData, width, height, yScale, xScale); // Отрисовываем дерево
   });
 
 /**
  * Конвертация данных: Формирует структуру дерева, включая супругов и их детей
  */
-function convertData(person) {
+function convertData(person, untilEnd = false) {
   let node = {
     name: person.name,
     description: person.description,
     photo: person.photo || "assets/default.jpg", // Устанавливаем дефолтное фото, если отсутствует
+    treeStart: person.treeStart,
     isEnd: person.isEnd,
     birth: person.birth, // Дата рождения
     death: person.death, // Дата смерти
@@ -23,7 +38,7 @@ function convertData(person) {
   // Добавляем собственных детей
   if (person.children && person.children.length > 0) {
     person.children.forEach((child) => {
-      node.children.push(convertData(child));
+      node.children.push(convertData(child, untilEnd));
     });
   }
 
@@ -35,7 +50,7 @@ function convertData(person) {
         if (!spouse.name) {
           if (spouse.children && spouse.children.length > 0) {
             spouse.children.forEach((child) => {
-              node.children.push(convertData(child));
+              node.children.push(convertData(child, untilEnd));
             });
           }
         } else {
@@ -52,7 +67,7 @@ function convertData(person) {
           // Добавляем детей супруга под его узел
           if (spouse.children && spouse.children.length > 0) {
             spouse.children.forEach((child) => {
-              spouseNode.children.push(convertData(child));
+              spouseNode.children.push(convertData(child, untilEnd));
             });
           }
 
@@ -64,7 +79,7 @@ function convertData(person) {
       if (!person.spouse.name) {
         if (person.spouse.children && person.spouse.children.length > 0) {
           person.spouse.children.forEach((child) => {
-            node.children.push(convertData(child));
+            node.children.push(convertData(child, untilEnd));
           });
         }
       } else {
@@ -80,7 +95,7 @@ function convertData(person) {
 
         if (person.spouse.children && person.spouse.children.length > 0) {
           person.spouse.children.forEach((child) => {
-            spouseNode.children.push(convertData(child));
+            spouseNode.children.push(convertData(child, untilEnd));
           });
         }
 
@@ -89,7 +104,26 @@ function convertData(person) {
     }
   }
 
+  if (untilEnd && node.isEnd) {
+    node.children = [];
+  }
+
   return node;
+}
+
+function findNodeByTreeStart(node, treeStart) {
+  if (node.treeStart === treeStart) {
+    return node;
+  }
+
+  for (const child of node.children) {
+    const found = findNodeByTreeStart(child, treeStart);
+    if (found) {
+      return found;
+    }
+  }
+
+  return null;
 }
 
 /**
@@ -112,11 +146,17 @@ function formatLifespan(person) {
 /**
  * Генерация дерева с использованием D3.js
  */
-function renderTree(data) {
-  const width = 3000; // Ширина дерева
-  const height = 5500; // Высота дерева
-  const yScale = 2; // Масштабирование горизонта
-  const xScale = 1.5; // Масштабирование вертикали
+function renderTree(
+  data,
+  width = 3000,
+  height = 5500,
+  yScale = 2,
+  xScale = 1.5
+) {
+  // const width = 3000; // Ширина дерева
+  // const height = 5500; // Высота дерева
+  // const yScale = 2; // Масштабирование горизонта
+  // const xScale = 1.5; // Масштабирование вертикали
 
   const svg = d3
     .select("#tree") // SVG-контейнер
@@ -179,7 +219,7 @@ function renderTree(data) {
       } else {
         if (d.data.isEnd) {
           return d.data.photo && d.data.photo !== "assets/default.jpg"
-            ? "#f587ff" 
+            ? "#f587ff"
             : "#f9baff";
         }
         return d.data.photo && d.data.photo !== "assets/default.jpg"
@@ -206,21 +246,58 @@ function renderTree(data) {
 /**
  * Центрирование дерева по первой ноде
  */
+// function centerTree(node, svg, g) {
+//   const svgWidth = parseInt(svg.attr("width"));
+//   const svgHeight = parseInt(svg.attr("height"));
+//   const scale = 1; // Стартовый масштаб
+
+//   // Вычисляем координаты центра
+//   const translateX = svgWidth / 2 - node.y;
+//   const translateY = svgHeight / 2 - node.x;
+
+//   // Применение трансформации
+//   svg
+//     .transition()
+//     .call(
+//       d3.zoom().transform,
+//       d3.zoomIdentity.translate(translateX / 2 - 600, translateY / 2 + 300).scale(0.5)
+//     );
+// }
 function centerTree(node, svg, g) {
-  const svgWidth = parseInt(svg.attr("width"));
-  const svgHeight = parseInt(svg.attr("height"));
-  const scale = 1; // Стартовый масштаб
+  const paddingX = 100; // Отступ от левого края экрана
+  const paddingY = 100; // Отступ от верхнего края экрана
+  const svgWidth = window.innerWidth; // Ширина видимой области браузера
+  const svgHeight = window.innerHeight; // Высота видимой области браузера
+  const zoomBehavior = d3.zoom().scaleExtent([0.5, 2]);
 
-  // Вычисляем координаты центра
-  const translateX = svgWidth / 2 - node.y;
-  const translateY = svgHeight / 2 - node.x;
+  // Начальные координаты трансформации
+  let translateX = paddingX - node.y;
+  let translateY = paddingY - node.x;
 
-  // Применение трансформации
+  // Ограничения X (нельзя вылетать за левый и правый края)
+  const minTranslateX = 0;
+  const maxTranslateX = svgWidth - paddingX;
+
+  // Ограничения Y (нельзя вылетать за верхний и нижний край)
+  const minTranslateY = 0;
+  const maxTranslateY = svgHeight - paddingY;
+
+  // Применение ограничений
+  translateX = Math.max(minTranslateX, Math.min(translateX, maxTranslateX));
+  translateY = Math.max(minTranslateY, Math.min(translateY, maxTranslateY));
+
+  // Обновление поведения зума
+  svg.call(
+    zoomBehavior.on("zoom", (event) => g.attr("transform", event.transform))
+  );
+
+  // Центрируем с учетом ограничений
   svg
     .transition()
+    .duration(750)
     .call(
-      d3.zoom().transform,
-      d3.zoomIdentity.translate(translateX - 2000, translateY - 800).scale(0.8)
+      zoomBehavior.transform,
+      d3.zoomIdentity.translate(translateX, translateY).scale(0.5)
     );
 }
 
@@ -261,3 +338,8 @@ function updateInfoPanel(data) {
   // Если ни одно поле не присутствует, предоставляем текст по умолчанию
   descriptionEl.innerHTML = details || "<p>Информация отсутствует</p>";
 }
+
+document.getElementById("close-info-panel").addEventListener("click", () => {
+  const infoPanel = document.getElementById("info-panel");
+  infoPanel.classList.remove("active");
+});

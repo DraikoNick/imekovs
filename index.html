@@ -3,15 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Генеалогическое древо</title>
+    <title>Генеалогическое древо Имековых (3 готольских род булагатов)</title>
     <link rel="stylesheet" href="style.css" />
+
+    <meta property="og:title" content="Генеалогическое древо Имековых" />
+    <meta
+      name="description"
+      content="Генеалогическое древо Имековых. 3 готольский род. булагаты"
+    />
+    <meta
+      property="og:description"
+      content="Генеалогическое древо Имековых. 3 готольский род. булагаты"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://draikonick.github.io/imekovs/" />
+    <link rel="canonical" href="https://draikonick.github.io/imekovs/" />
   </head>
   <body>
+    <h1 style="display: none">Генеалогическое древо Имековых</h1>
+    <h2 style="display: none">3 готольский род</h2>
     <!-- Контейнер для информации о текущей выбранной ноде -->
     <div id="info-panel">
       <h2 id="info-name">Выберите ноду...</h2>
       <img id="info-photo" src="assets/default.jpg" alt="Фото" />
       <p id="info-description"></p>
+      <button id="close-info-panel">Закрыть</button>
     </div>
 
     <!-- Контейнер для дерева -->
@@ -19,6 +35,7 @@
       <svg id="tree"></svg>
     </div>
 
+    <!-- Легенда -->
     <input type="checkbox" id="toggle-legend" />
     <label for="toggle-legend" id="legend-button">Легенда</label>
     <div id="legend">
@@ -38,7 +55,6 @@
         <div class="color-box" style="background-color: #b3e6b3"></div>
         <span>Светло-зеленый - узел без фото</span>
       </div>
-      
       <div class="legend-item">
         <div class="color-box" style="background-color: #f9baff"></div>
         <span>Светло-розовый - объединение родов</span>
@@ -47,6 +63,36 @@
         <div class="color-box" style="background-color: #f587ff"></div>
         <span>Темно-розовый - девушка с фото</span>
       </div>
+    </div>
+
+    <!-- Кнопка меню -->
+    <input type="checkbox" id="toggle-menu" />
+    <label for="toggle-menu" id="menu-button">Меню</label>
+    <div id="menu-panel">
+      <ul>
+        <li><a href="/">Готольский род</a></li>
+        <li><a href="?treeStart=imek&width=2000">Род Имекова</a></li>
+        <li>
+          <a href="?treeStart=imek&untilEnd=true&width=1500&height=3000"
+            >Род Имекова. Без объединения родов.</a
+          >
+        </li>
+        <li>
+          <a href="?treeStart=ermolai&width=1500&height=4000"
+            >Род Ермолая Имекова</a
+          >
+        </li>
+        <li>
+          <a href="?treeStart=anoska&width=800&height=1000"
+            >Род Аноски Имекова</a
+          >
+        </li>
+        <li>
+          <a href="?treeStart=stepan&width=1100&height=2200"
+            >Род Степана Имекова</a
+          >
+        </li>
+      </ul>
     </div>
 
     <script src="https://d3js.org/d3.v6.min.js"></script>
