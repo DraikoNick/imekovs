@@ -14,6 +14,7 @@ function convertData(person) {
     name: person.name,
     description: person.description,
     photo: person.photo || "assets/default.jpg", // Устанавливаем дефолтное фото, если отсутствует
+    isEnd: person.isEnd,
     birth: person.birth, // Дата рождения
     death: person.death, // Дата смерти
     children: [],
@@ -176,6 +177,11 @@ function renderTree(data) {
           ? "#606b6b" // Темно-серый с голубым оттенком для супругов с фото
           : "#cccccc"; // Светло-серый для супругов без фото
       } else {
+        if (d.data.isEnd) {
+          return d.data.photo && d.data.photo !== "assets/default.jpg"
+            ? "#f587ff" 
+            : "#f9baff";
+        }
         return d.data.photo && d.data.photo !== "assets/default.jpg"
           ? "#00bfff" // Голубой для узлов с фото
           : "#b3e6b3"; // Светло-зеленый для узлов без фото
@@ -222,6 +228,11 @@ function centerTree(node, svg, g) {
  * Отображение информации о выбранной ноде
  */
 function updateInfoPanel(data) {
+  const infoPanel = document.getElementById("info-panel");
+
+  // Добавляем класс "active", чтобы отображать панель
+  infoPanel.classList.add("active");
+
   const nameEl = document.getElementById("info-name");
   const photoEl = document.getElementById("info-photo");
   const descriptionEl = document.getElementById("info-description");
