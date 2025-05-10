@@ -162,6 +162,8 @@ function renderTree(
     .select("#tree") // SVG-контейнер
     .attr("width", width)
     .attr("height", height)
+    .style("width", "100%") // Сделать ширину динамической
+    .style("height", "100%") // Сделать высоту динамической
     .call(
       d3
         .zoom()
@@ -204,6 +206,12 @@ function renderTree(
     .data(nodes)
     .join("g")
     .attr("transform", (d) => `translate(${d.y * yScale},${d.x * xScale})`) // Применяем масштабирование к координатам `y`
+    .attr("transform", (d) => {
+      const transform = `translate(${d.y * yScale},${d.x * xScale})`; // Вычисляем трансформацию
+      d.data.x = d.y * yScale; // фиг знает почему перевернуло
+      d.data.y = d.x * xScale;
+      return transform; // Применяем трансформацию
+    })
     .attr("class", "node")
     .on("click", (event, d) => updateInfoPanel(d.data)); // Логика клика
 
@@ -264,41 +272,20 @@ function renderTree(
 //     );
 // }
 function centerTree(node, svg, g) {
-  const paddingX = 100; // Отступ от левого края экрана
-  const paddingY = 100; // Отступ от верхнего края экрана
-  const svgWidth = window.innerWidth; // Ширина видимой области браузера
-  const svgHeight = window.innerHeight; // Высота видимой области браузера
   const zoomBehavior = d3.zoom().scaleExtent([0.5, 2]);
-
-  // Начальные координаты трансформации
-  let translateX = paddingX - node.y;
-  let translateY = paddingY - node.x;
-
-  // Ограничения X (нельзя вылетать за левый и правый края)
-  const minTranslateX = 0;
-  const maxTranslateX = svgWidth - paddingX;
-
-  // Ограничения Y (нельзя вылетать за верхний и нижний край)
-  const minTranslateY = 0;
-  const maxTranslateY = svgHeight - paddingY;
-
-  // Применение ограничений
-  translateX = Math.max(minTranslateX, Math.min(translateX, maxTranslateX));
-  translateY = Math.max(minTranslateY, Math.min(translateY, maxTranslateY));
-
-  // Обновление поведения зума
+  // Установка поведения зума и начальных координат
   svg.call(
     zoomBehavior.on("zoom", (event) => g.attr("transform", event.transform))
   );
 
-  // Центрируем с учетом ограничений
+  const x = node.data.x + 100;
+  const y = -node.data.y + 100;
+
+  // Позиционируем дерево
   svg
     .transition()
     .duration(750)
-    .call(
-      zoomBehavior.transform,
-      d3.zoomIdentity.translate(translateX, translateY).scale(0.5)
-    );
+    .call(zoomBehavior.transform, d3.zoomIdentity.translate(x, y).scale(1));
 }
 
 /**
