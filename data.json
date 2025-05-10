@@ -138,6 +138,50 @@
                                       }
                                     ]
                                   }
+                                },
+                                {
+                                  "name": "Хунгэ",
+                                  "description": "",
+                                  "photo": "",
+                                  "spouse": {
+                                    "name": "",
+                                    "description": "",
+                                    "photo": "",
+                                    "children": []
+                                  }
+                                },
+                                {
+                                  "name": "Бушхай",
+                                  "description": "",
+                                  "photo": "",
+                                  "spouse": {
+                                    "name": "",
+                                    "description": "",
+                                    "photo": "",
+                                    "children": []
+                                  }
+                                },
+                                {
+                                  "name": "Хэрэ",
+                                  "description": "",
+                                  "photo": "",
+                                  "spouse": {
+                                    "name": "",
+                                    "description": "",
+                                    "photo": "",
+                                    "children": []
+                                  }
+                                },
+                                {
+                                  "name": "Эмэгшэ",
+                                  "description": "",
+                                  "photo": "",
+                                  "spouse": {
+                                    "name": "",
+                                    "description": "",
+                                    "photo": "",
+                                    "children": []
+                                  }
                                 }
                               ]
                             },
@@ -148,7 +192,7 @@
                               "children": [
                                 {
                                   "name": "Готол",
-                                  "description": "Готол был ограничен, неповоротлив, слабосилен; одежда на нем висела, как на чучеле. Живот у него был, как копна (бухал гузээн). Народ часто смеялся над ним и говорил: «Стельный Готол, яловая Голон» (так звали его жену)",
+                                  "description": "",
                                   "photo": "",
                                   "spouse": {
                                     "name": "Голон",
@@ -199,7 +243,7 @@
                                           "photo": "",
                                           "children": [
                                             {
-                                              "name": "Сойрон",
+                                              "name": "Сойрон (4 готольский род)",
                                               "description": "",
                                               "photo": "",
                                               "spouse": {
@@ -490,41 +534,6 @@
                                                 "photo": "",
                                                 "children": [
                                                   {
-                                                    "name": "Торбай",
-                                                    "description": "",
-                                                    "photo": "",
-                                                    "spouse": {
-                                                      "name": "",
-                                                      "description": "",
-                                                      "photo": "",
-                                                      "children": [
-                                                        {
-                                                          "name": "Таиуй",
-                                                          "description": "",
-                                                          "photo": "",
-                                                          "spouse": {
-                                                            "name": "",
-                                                            "description": "",
-                                                            "photo": "",
-                                                            "children": [
-                                                              {
-                                                                "name": "Хоруй",
-                                                                "description": "",
-                                                                "photo": "",
-                                                                "spouse": {
-                                                                  "name": "",
-                                                                  "description": "",
-                                                                  "photo": "",
-                                                                  "children": []
-                                                                }
-                                                              }
-                                                            ]
-                                                          }
-                                                        }
-                                                      ]
-                                                    }
-                                                  },
-                                                  {
                                                     "name": "Ярбай",
                                                     "description": "",
                                                     "photo": "",
@@ -614,7 +623,7 @@
                                                     }
                                                   },
                                                   {
-                                                    "name": "Бужидай",
+                                                    "name": "Бужидай (4 готольский род)",
                                                     "description": "",
                                                     "photo": "",
                                                     "spouse": {
@@ -4797,7 +4806,19 @@
                                                       "name": "",
                                                       "description": "",
                                                       "photo": "",
-                                                      "children": []
+                                                      "children": [
+                                                        {
+                                                          "name": "hагна",
+                                                          "description": "",
+                                                          "photo": "",
+                                                          "spouse": {
+                                                            "name": "",
+                                                            "description": "",
+                                                            "photo": "",
+                                                            "children": []
+                                                          }
+                                                        }
+                                                      ]
                                                     }
                                                   },
                                                   {
@@ -4823,11 +4844,88 @@
                               ]
                             }
                           ]
+                        },
+                        {
+                          "name": "Хурхут",
+                          "description": "",
+                          "photo": "",
+                          "spouse": {
+                            "name": "",
+                            "description": "",
+                            "photo": "",
+                            "children": []
+                          }
+                        },
+                        {
+                          "name": "Бируха Турген",
+                          "description": "",
+                          "photo": "",
+                          "spouse": {
+                            "name": "",
+                            "description": "",
+                            "photo": "",
+                            "children": []
+                          }
+                        },
+                        {
+                          "name": "Боржом Далхай",
+                          "description": "",
+                          "photo": "",
+                          "spouse": {
+                            "name": "",
+                            "description": "",
+                            "photo": "",
+                            "children": []
+                          }
+                        },
+                        {
+                          "name": "Нарин Хойбо",
+                          "description": "",
+                          "photo": "",
+                          "spouse": {
+                            "name": "",
+                            "description": "",
+                            "photo": "",
+                            "children": []
+                          }
+                        },
+                        {
+                          "name": "Саган",
+                          "description": "",
+                          "photo": "",
+                          "spouse": {
+                            "name": "",
+                            "description": "",
+                            "photo": "",
+                            "children": []
+                          }
+                        },
+                        {
+                          "name": "Ашаабагат",
+                          "description": "",
+                          "photo": "",
+                          "spouse": {
+                            "name": "",
+                            "description": "",
+                            "photo": "",
+                            "children": []
+                          }
                         }
                       ]
                     }
                   }
                 ]
+              }
+            },
+            {
+              "name": "Бузган Хара",
+              "description": "",
+              "photo": "",
+              "spouse": {
+                "name": "",
+                "description": "",
+                "photo": "",
+                "children": []
               }
             }
           ]
