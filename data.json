@@ -821,6 +821,76 @@
                                                                                             "photo": "",
                                                                                             "children": [
                                                                                               {
+                                                                                                "name": "Хасаг / Хамаг",
+                                                                                                "description": "в рукописных родословных его нет. В переписи населения он есть.",
+                                                                                                "photo": "sources/5206353219159192234.jpg",
+                                                                                                "spouse": {
+                                                                                                  "name": "Оньшен",
+                                                                                                  "description": "Башинова",
+                                                                                                  "photo": "",
+                                                                                                  "children": [
+                                                                                                    {
+                                                                                                      "name": "Шадонь",
+                                                                                                      "description": "",
+                                                                                                      "isEnd": true,
+                                                                                                      "photo": "sources/5206353219159192234.jpg",
+                                                                                                      "spouse": {
+                                                                                                        "name": "",
+                                                                                                        "description": "",
+                                                                                                        "photo": "",
+                                                                                                        "children": []
+                                                                                                      }
+                                                                                                    },
+                                                                                                    {
+                                                                                                      "name": "Хамаган",
+                                                                                                      "description": "",
+                                                                                                      "photo": "sources/5206353219159192234.jpg",
+                                                                                                      "spouse": {
+                                                                                                        "name": "",
+                                                                                                        "description": "",
+                                                                                                        "photo": "",
+                                                                                                        "children": []
+                                                                                                      }
+                                                                                                    }
+                                                                                                  ]
+                                                                                                }
+                                                                                              },
+                                                                                              {
+                                                                                                "name": "Имыхен",
+                                                                                                "description": "в рукописных родословных его нет. В переписи населения он есть.",
+                                                                                                "photo": "sources/5206353219159192234.jpg",
+                                                                                                "spouse": {
+                                                                                                  "name": "Нохас",
+                                                                                                  "description": " Батхаева",
+                                                                                                  "photo": "",
+                                                                                                  "children": [
+                                                                                                    {
+                                                                                                      "name": "Николай",
+                                                                                                      "description": "",
+                                                                                                      "photo": "sources/5206353219159192234.jpg",
+                                                                                                      "spouse": {
+                                                                                                        "name": "",
+                                                                                                        "description": "",
+                                                                                                        "photo": "",
+                                                                                                        "children": []
+                                                                                                      }
+                                                                                                    },
+                                                                                                    {
+                                                                                                      "name": "Таньюр",
+                                                                                                      "description": "",
+                                                                                                      "isEnd": true,
+                                                                                                      "photo": "sources/5206353219159192234.jpg",
+                                                                                                      "spouse": {
+                                                                                                        "name": "",
+                                                                                                        "description": "",
+                                                                                                        "photo": "",
+                                                                                                        "children": []
+                                                                                                      }
+                                                                                                    }
+                                                                                                  ]
+                                                                                                }
+                                                                                              },
+                                                                                              {
                                                                                                 "name": "Имек / Эмэ / Имэгэ",
                                                                                                 "treeStart": "imek",
                                                                                                 "description": "Имык Ядуев. Во всех родословных у Имека были два родных брата, Хамну и Халгай, а по архивным данным, которые шаман Павел нашёл ,родные братья Хасаг и Имехен, а Хамну и Халгай двоюродные.",
@@ -4984,76 +5054,6 @@
                                                                                                     }
                                                                                                   ]
                                                                                                 }
-                                                                                              },
-                                                                                              {
-                                                                                                "name": "Хасаг / Хамаг",
-                                                                                                "description": "в рукописных родословных его нет. В переписи населения он есть.",
-                                                                                                "photo": "sources/5206353219159192234.jpg",
-                                                                                                "spouse": {
-                                                                                                  "name": "Оньшен",
-                                                                                                  "description": "Башинова",
-                                                                                                  "photo": "",
-                                                                                                  "children": [
-                                                                                                    {
-                                                                                                      "name": "Шадонь",
-                                                                                                      "description": "",
-                                                                                                      "isEnd": true,
-                                                                                                      "photo": "sources/5206353219159192234.jpg",
-                                                                                                      "spouse": {
-                                                                                                        "name": "",
-                                                                                                        "description": "",
-                                                                                                        "photo": "",
-                                                                                                        "children": []
-                                                                                                      }
-                                                                                                    },
-                                                                                                    {
-                                                                                                      "name": "Хамаган",
-                                                                                                      "description": "",
-                                                                                                      "photo": "sources/5206353219159192234.jpg",
-                                                                                                      "spouse": {
-                                                                                                        "name": "",
-                                                                                                        "description": "",
-                                                                                                        "photo": "",
-                                                                                                        "children": []
-                                                                                                      }
-                                                                                                    }
-                                                                                                  ]
-                                                                                                }
-                                                                                              },
-                                                                                              {
-                                                                                                "name": "Имыхен",
-                                                                                                "description": "в рукописных родословных его нет. В переписи населения он есть.",
-                                                                                                "photo": "sources/5206353219159192234.jpg",
-                                                                                                "spouse": {
-                                                                                                  "name": "Нохас",
-                                                                                                  "description": " Батхаева",
-                                                                                                  "photo": "",
-                                                                                                  "children": [
-                                                                                                    {
-                                                                                                      "name": "Николай",
-                                                                                                      "description": "",
-                                                                                                      "photo": "sources/5206353219159192234.jpg",
-                                                                                                      "spouse": {
-                                                                                                        "name": "",
-                                                                                                        "description": "",
-                                                                                                        "photo": "",
-                                                                                                        "children": []
-                                                                                                      }
-                                                                                                    },
-                                                                                                    {
-                                                                                                      "name": "Таньюр",
-                                                                                                      "description": "",
-                                                                                                      "isEnd": true,
-                                                                                                      "photo": "sources/5206353219159192234.jpg",
-                                                                                                      "spouse": {
-                                                                                                        "name": "",
-                                                                                                        "description": "",
-                                                                                                        "photo": "",
-                                                                                                        "children": []
-                                                                                                      }
-                                                                                                    }
-                                                                                                  ]
-                                                                                                }
                                                                                               }
                                                                                             ]
                                                                                           },
@@ -5063,25 +5063,25 @@
                                                                                             "photo": "",
                                                                                             "children": [
                                                                                               {
-                                                                                                "name": "Халгай",
-                                                                                                "description": "во всех рукописных родословных он указан как родной брат. В переписи населения указан как двоюродный",
-                                                                                                "photo": "sources/5206353219159192234.jpg",
+                                                                                                "name": "Батор",
+                                                                                                "description": "",
+                                                                                                "photo": "",
                                                                                                 "spouse": {
                                                                                                   "name": "",
                                                                                                   "description": "",
                                                                                                   "photo": "",
                                                                                                   "children": [
                                                                                                     {
-                                                                                                      "name": "Асалхан",
-                                                                                                      "description": "Халгаев",
-                                                                                                      "photo": "",
+                                                                                                      "name": "Халгай",
+                                                                                                      "description": "во всех рукописных родословных он указан как родной брат. В переписи населения указан как двоюродный",
+                                                                                                      "photo": "sources/5206353219159192234.jpg",
                                                                                                       "spouse": {
                                                                                                         "name": "",
                                                                                                         "description": "",
                                                                                                         "photo": "",
                                                                                                         "children": [
                                                                                                           {
-                                                                                                            "name": "Паша",
+                                                                                                            "name": "Асалхан",
                                                                                                             "description": "Халгаев",
                                                                                                             "photo": "",
                                                                                                             "spouse": {
@@ -5090,18 +5090,157 @@
                                                                                                               "photo": "",
                                                                                                               "children": [
                                                                                                                 {
-                                                                                                                  "name": "Демьян",
-                                                                                                                  "description": "",
+                                                                                                                  "name": "Паша",
+                                                                                                                  "description": "Халгаев",
                                                                                                                   "photo": "",
                                                                                                                   "spouse": {
                                                                                                                     "name": "",
                                                                                                                     "description": "",
                                                                                                                     "photo": "",
-                                                                                                                    "children": []
+                                                                                                                    "children": [
+                                                                                                                      {
+                                                                                                                        "name": "Демьян",
+                                                                                                                        "description": "",
+                                                                                                                        "photo": "",
+                                                                                                                        "spouse": {
+                                                                                                                          "name": "",
+                                                                                                                          "description": "",
+                                                                                                                          "photo": "",
+                                                                                                                          "children": []
+                                                                                                                        }
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                        "name": "Мария",
+                                                                                                                        "description": "",
+                                                                                                                        "isEnd": true,
+                                                                                                                        "photo": "",
+                                                                                                                        "spouse": {
+                                                                                                                          "name": "",
+                                                                                                                          "description": "",
+                                                                                                                          "photo": "",
+                                                                                                                          "children": []
+                                                                                                                        }
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                        "name": "Хамагал",
+                                                                                                                        "description": "",
+                                                                                                                        "photo": "",
+                                                                                                                        "spouse": {
+                                                                                                                          "name": "",
+                                                                                                                          "description": "",
+                                                                                                                          "photo": "",
+                                                                                                                          "children": []
+                                                                                                                        }
+                                                                                                                      }
+                                                                                                                    ]
                                                                                                                   }
                                                                                                                 },
                                                                                                                 {
-                                                                                                                  "name": "Мария",
+                                                                                                                  "name": "Могэо",
+                                                                                                                  "description": "Улаханова",
+                                                                                                                  "photo": "",
+                                                                                                                  "spouse": {
+                                                                                                                    "name": "",
+                                                                                                                    "description": "",
+                                                                                                                    "photo": "",
+                                                                                                                    "children": [
+                                                                                                                      {
+                                                                                                                        "name": "Ира",
+                                                                                                                        "description": "",
+                                                                                                                        "isEnd": true,
+                                                                                                                        "photo": "",
+                                                                                                                        "spouse": {
+                                                                                                                          "name": "",
+                                                                                                                          "description": "",
+                                                                                                                          "photo": "",
+                                                                                                                          "children": []
+                                                                                                                        }
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                        "name": "Наталья",
+                                                                                                                        "description": "",
+                                                                                                                        "isEnd": true,
+                                                                                                                        "photo": "",
+                                                                                                                        "spouse": {
+                                                                                                                          "name": "",
+                                                                                                                          "description": "",
+                                                                                                                          "photo": "",
+                                                                                                                          "children": []
+                                                                                                                        }
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                        "name": "Василий",
+                                                                                                                        "description": "",
+                                                                                                                        "photo": "",
+                                                                                                                        "spouse": {
+                                                                                                                          "name": "",
+                                                                                                                          "description": "",
+                                                                                                                          "photo": "",
+                                                                                                                          "children": []
+                                                                                                                        }
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                        "name": "Семен",
+                                                                                                                        "description": "",
+                                                                                                                        "photo": "",
+                                                                                                                        "spouse": {
+                                                                                                                          "name": "",
+                                                                                                                          "description": "",
+                                                                                                                          "photo": "",
+                                                                                                                          "children": []
+                                                                                                                        }
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                        "name": "Вера",
+                                                                                                                        "description": "",
+                                                                                                                        "isEnd": true,
+                                                                                                                        "photo": "",
+                                                                                                                        "spouse": {
+                                                                                                                          "name": "",
+                                                                                                                          "description": "",
+                                                                                                                          "photo": "",
+                                                                                                                          "children": []
+                                                                                                                        }
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                        "name": "Иосиф",
+                                                                                                                        "description": "",
+                                                                                                                        "photo": "",
+                                                                                                                        "spouse": {
+                                                                                                                          "name": "",
+                                                                                                                          "description": "",
+                                                                                                                          "photo": "",
+                                                                                                                          "children": []
+                                                                                                                        }
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                        "name": "Логин",
+                                                                                                                        "description": "",
+                                                                                                                        "photo": "",
+                                                                                                                        "spouse": {
+                                                                                                                          "name": "",
+                                                                                                                          "description": "",
+                                                                                                                          "photo": "",
+                                                                                                                          "children": []
+                                                                                                                        }
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                        "name": "Анна",
+                                                                                                                        "description": "",
+                                                                                                                        "isEnd": true,
+                                                                                                                        "photo": "",
+                                                                                                                        "spouse": {
+                                                                                                                          "name": "",
+                                                                                                                          "description": "",
+                                                                                                                          "photo": "",
+                                                                                                                          "children": []
+                                                                                                                        }
+                                                                                                                      }
+                                                                                                                    ]
+                                                                                                                  }
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "name": "Марья",
                                                                                                                   "description": "",
                                                                                                                   "isEnd": true,
                                                                                                                   "photo": "",
@@ -5109,12 +5248,84 @@
                                                                                                                     "name": "",
                                                                                                                     "description": "",
                                                                                                                     "photo": "",
-                                                                                                                    "children": []
+                                                                                                                    "children": [
+                                                                                                                      {
+                                                                                                                        "name": "Илия",
+                                                                                                                        "description": "",
+                                                                                                                        "photo": "",
+                                                                                                                        "spouse": {
+                                                                                                                          "name": "",
+                                                                                                                          "description": "",
+                                                                                                                          "photo": "",
+                                                                                                                          "children": []
+                                                                                                                        }
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                        "name": "Евдокия",
+                                                                                                                        "description": "",
+                                                                                                                        "isEnd": true,
+                                                                                                                        "photo": "",
+                                                                                                                        "spouse": {
+                                                                                                                          "name": "",
+                                                                                                                          "description": "",
+                                                                                                                          "photo": "",
+                                                                                                                          "children": []
+                                                                                                                        }
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                        "name": "Таня",
+                                                                                                                        "description": "",
+                                                                                                                        "isEnd": true,
+                                                                                                                        "photo": "",
+                                                                                                                        "spouse": {
+                                                                                                                          "name": "",
+                                                                                                                          "description": "",
+                                                                                                                          "photo": "",
+                                                                                                                          "children": []
+                                                                                                                        }
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                        "name": "Вера",
+                                                                                                                        "description": "",
+                                                                                                                        "isEnd": true,
+                                                                                                                        "photo": "",
+                                                                                                                        "spouse": {
+                                                                                                                          "name": "",
+                                                                                                                          "description": "",
+                                                                                                                          "photo": "",
+                                                                                                                          "children": []
+                                                                                                                        }
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                        "name": "Настя",
+                                                                                                                        "description": "",
+                                                                                                                        "isEnd": true,
+                                                                                                                        "photo": "",
+                                                                                                                        "spouse": {
+                                                                                                                          "name": "",
+                                                                                                                          "description": "",
+                                                                                                                          "photo": "",
+                                                                                                                          "children": []
+                                                                                                                        }
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                        "name": "Терентий",
+                                                                                                                        "description": "",
+                                                                                                                        "photo": "",
+                                                                                                                        "spouse": {
+                                                                                                                          "name": "",
+                                                                                                                          "description": "",
+                                                                                                                          "photo": "",
+                                                                                                                          "children": []
+                                                                                                                        }
+                                                                                                                      }
+                                                                                                                    ]
                                                                                                                   }
                                                                                                                 },
                                                                                                                 {
-                                                                                                                  "name": "Хамагал",
+                                                                                                                  "name": "Матрена",
                                                                                                                   "description": "",
+                                                                                                                  "isEnd": true,
                                                                                                                   "photo": "",
                                                                                                                   "spouse": {
                                                                                                                     "name": "",
@@ -5124,234 +5335,23 @@
                                                                                                                   }
                                                                                                                 }
                                                                                                               ]
-                                                                                                            }
-                                                                                                          },
-                                                                                                          {
-                                                                                                            "name": "Могэо",
-                                                                                                            "description": "Улаханова",
-                                                                                                            "photo": "",
-                                                                                                            "spouse": {
-                                                                                                              "name": "",
-                                                                                                              "description": "",
-                                                                                                              "photo": "",
-                                                                                                              "children": [
-                                                                                                                {
-                                                                                                                  "name": "Ира",
-                                                                                                                  "description": "",
-                                                                                                                  "isEnd": true,
-                                                                                                                  "photo": "",
-                                                                                                                  "spouse": {
-                                                                                                                    "name": "",
-                                                                                                                    "description": "",
-                                                                                                                    "photo": "",
-                                                                                                                    "children": []
-                                                                                                                  }
-                                                                                                                },
-                                                                                                                {
-                                                                                                                  "name": "Наталья",
-                                                                                                                  "description": "",
-                                                                                                                  "isEnd": true,
-                                                                                                                  "photo": "",
-                                                                                                                  "spouse": {
-                                                                                                                    "name": "",
-                                                                                                                    "description": "",
-                                                                                                                    "photo": "",
-                                                                                                                    "children": []
-                                                                                                                  }
-                                                                                                                },
-                                                                                                                {
-                                                                                                                  "name": "Василий",
-                                                                                                                  "description": "",
-                                                                                                                  "photo": "",
-                                                                                                                  "spouse": {
-                                                                                                                    "name": "",
-                                                                                                                    "description": "",
-                                                                                                                    "photo": "",
-                                                                                                                    "children": []
-                                                                                                                  }
-                                                                                                                },
-                                                                                                                {
-                                                                                                                  "name": "Семен",
-                                                                                                                  "description": "",
-                                                                                                                  "photo": "",
-                                                                                                                  "spouse": {
-                                                                                                                    "name": "",
-                                                                                                                    "description": "",
-                                                                                                                    "photo": "",
-                                                                                                                    "children": []
-                                                                                                                  }
-                                                                                                                },
-                                                                                                                {
-                                                                                                                  "name": "Вера",
-                                                                                                                  "description": "",
-                                                                                                                  "isEnd": true,
-                                                                                                                  "photo": "",
-                                                                                                                  "spouse": {
-                                                                                                                    "name": "",
-                                                                                                                    "description": "",
-                                                                                                                    "photo": "",
-                                                                                                                    "children": []
-                                                                                                                  }
-                                                                                                                },
-                                                                                                                {
-                                                                                                                  "name": "Иосиф",
-                                                                                                                  "description": "",
-                                                                                                                  "photo": "",
-                                                                                                                  "spouse": {
-                                                                                                                    "name": "",
-                                                                                                                    "description": "",
-                                                                                                                    "photo": "",
-                                                                                                                    "children": []
-                                                                                                                  }
-                                                                                                                },
-                                                                                                                {
-                                                                                                                  "name": "Логин",
-                                                                                                                  "description": "",
-                                                                                                                  "photo": "",
-                                                                                                                  "spouse": {
-                                                                                                                    "name": "",
-                                                                                                                    "description": "",
-                                                                                                                    "photo": "",
-                                                                                                                    "children": []
-                                                                                                                  }
-                                                                                                                },
-                                                                                                                {
-                                                                                                                  "name": "Анна",
-                                                                                                                  "description": "",
-                                                                                                                  "isEnd": true,
-                                                                                                                  "photo": "",
-                                                                                                                  "spouse": {
-                                                                                                                    "name": "",
-                                                                                                                    "description": "",
-                                                                                                                    "photo": "",
-                                                                                                                    "children": []
-                                                                                                                  }
-                                                                                                                }
-                                                                                                              ]
-                                                                                                            }
-                                                                                                          },
-                                                                                                          {
-                                                                                                            "name": "Марья",
-                                                                                                            "description": "",
-                                                                                                            "isEnd": true,
-                                                                                                            "photo": "",
-                                                                                                            "spouse": {
-                                                                                                              "name": "",
-                                                                                                              "description": "",
-                                                                                                              "photo": "",
-                                                                                                              "children": [
-                                                                                                                {
-                                                                                                                  "name": "Илия",
-                                                                                                                  "description": "",
-                                                                                                                  "photo": "",
-                                                                                                                  "spouse": {
-                                                                                                                    "name": "",
-                                                                                                                    "description": "",
-                                                                                                                    "photo": "",
-                                                                                                                    "children": []
-                                                                                                                  }
-                                                                                                                },
-                                                                                                                {
-                                                                                                                  "name": "Евдокия",
-                                                                                                                  "description": "",
-                                                                                                                  "isEnd": true,
-                                                                                                                  "photo": "",
-                                                                                                                  "spouse": {
-                                                                                                                    "name": "",
-                                                                                                                    "description": "",
-                                                                                                                    "photo": "",
-                                                                                                                    "children": []
-                                                                                                                  }
-                                                                                                                },
-                                                                                                                {
-                                                                                                                  "name": "Таня",
-                                                                                                                  "description": "",
-                                                                                                                  "isEnd": true,
-                                                                                                                  "photo": "",
-                                                                                                                  "spouse": {
-                                                                                                                    "name": "",
-                                                                                                                    "description": "",
-                                                                                                                    "photo": "",
-                                                                                                                    "children": []
-                                                                                                                  }
-                                                                                                                },
-                                                                                                                {
-                                                                                                                  "name": "Вера",
-                                                                                                                  "description": "",
-                                                                                                                  "isEnd": true,
-                                                                                                                  "photo": "",
-                                                                                                                  "spouse": {
-                                                                                                                    "name": "",
-                                                                                                                    "description": "",
-                                                                                                                    "photo": "",
-                                                                                                                    "children": []
-                                                                                                                  }
-                                                                                                                },
-                                                                                                                {
-                                                                                                                  "name": "Настя",
-                                                                                                                  "description": "",
-                                                                                                                  "isEnd": true,
-                                                                                                                  "photo": "",
-                                                                                                                  "spouse": {
-                                                                                                                    "name": "",
-                                                                                                                    "description": "",
-                                                                                                                    "photo": "",
-                                                                                                                    "children": []
-                                                                                                                  }
-                                                                                                                },
-                                                                                                                {
-                                                                                                                  "name": "Терентий",
-                                                                                                                  "description": "",
-                                                                                                                  "photo": "",
-                                                                                                                  "spouse": {
-                                                                                                                    "name": "",
-                                                                                                                    "description": "",
-                                                                                                                    "photo": "",
-                                                                                                                    "children": []
-                                                                                                                  }
-                                                                                                                }
-                                                                                                              ]
-                                                                                                            }
-                                                                                                          },
-                                                                                                          {
-                                                                                                            "name": "Матрена",
-                                                                                                            "description": "",
-                                                                                                            "isEnd": true,
-                                                                                                            "photo": "",
-                                                                                                            "spouse": {
-                                                                                                              "name": "",
-                                                                                                              "description": "",
-                                                                                                              "photo": "",
-                                                                                                              "children": []
                                                                                                             }
                                                                                                           }
                                                                                                         ]
                                                                                                       }
-                                                                                                    }
-                                                                                                  ]
-                                                                                                }
-                                                                                              },
-                                                                                              {
-                                                                                                "name": "Хамну",
-                                                                                                "description": "во всех рукописных родословных он указан как родной брат. В переписи населения указан как двоюродный",
-                                                                                                "photo": "sources/5206353219159192234.jpg",
-                                                                                                "spouse": {
-                                                                                                  "name": "",
-                                                                                                  "description": "",
-                                                                                                  "photo": "",
-                                                                                                  "children": [
+                                                                                                    },
                                                                                                     {
-                                                                                                      "name": "Хантак",
-                                                                                                      "description": "",
-                                                                                                      "photo": "",
+                                                                                                      "name": "Хамну",
+                                                                                                      "description": "во всех рукописных родословных он указан как родной брат. В переписи населения указан как двоюродный",
+                                                                                                      "photo": "sources/5206353219159192234.jpg",
                                                                                                       "spouse": {
                                                                                                         "name": "",
                                                                                                         "description": "",
                                                                                                         "photo": "",
                                                                                                         "children": [
                                                                                                           {
-                                                                                                            "name": "Александр",
-                                                                                                            "description": "Хамнуев",
+                                                                                                            "name": "Хантак",
+                                                                                                            "description": "",
                                                                                                             "photo": "",
                                                                                                             "spouse": {
                                                                                                               "name": "",
@@ -5359,50 +5359,62 @@
                                                                                                               "photo": "",
                                                                                                               "children": [
                                                                                                                 {
-                                                                                                                  "name": "Елена",
-                                                                                                                  "description": "Хамнуева",
-                                                                                                                  "isEnd": true,
-                                                                                                                  "photo": "",
-                                                                                                                  "spouse": {
-                                                                                                                    "name": "",
-                                                                                                                    "description": "",
-                                                                                                                    "photo": "",
-                                                                                                                    "children": []
-                                                                                                                  }
-                                                                                                                },
-                                                                                                                {
-                                                                                                                  "name": "Василий",
+                                                                                                                  "name": "Александр",
                                                                                                                   "description": "Хамнуев",
                                                                                                                   "photo": "",
                                                                                                                   "spouse": {
                                                                                                                     "name": "",
                                                                                                                     "description": "",
                                                                                                                     "photo": "",
-                                                                                                                    "children": []
-                                                                                                                  }
-                                                                                                                },
-                                                                                                                {
-                                                                                                                  "name": "Маргарита",
-                                                                                                                  "description": "Хамнуева",
-                                                                                                                  "isEnd": true,
-                                                                                                                  "photo": "",
-                                                                                                                  "spouse": {
-                                                                                                                    "name": "",
-                                                                                                                    "description": "",
-                                                                                                                    "photo": "",
-                                                                                                                    "children": []
-                                                                                                                  }
-                                                                                                                },
-                                                                                                                {
-                                                                                                                  "name": "Гера",
-                                                                                                                  "description": "Хамнуева",
-                                                                                                                  "isEnd": true,
-                                                                                                                  "photo": "",
-                                                                                                                  "spouse": {
-                                                                                                                    "name": "",
-                                                                                                                    "description": "",
-                                                                                                                    "photo": "",
-                                                                                                                    "children": []
+                                                                                                                    "children": [
+                                                                                                                      {
+                                                                                                                        "name": "Елена",
+                                                                                                                        "description": "Хамнуева",
+                                                                                                                        "isEnd": true,
+                                                                                                                        "photo": "",
+                                                                                                                        "spouse": {
+                                                                                                                          "name": "",
+                                                                                                                          "description": "",
+                                                                                                                          "photo": "",
+                                                                                                                          "children": []
+                                                                                                                        }
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                        "name": "Василий",
+                                                                                                                        "description": "Хамнуев",
+                                                                                                                        "photo": "",
+                                                                                                                        "spouse": {
+                                                                                                                          "name": "",
+                                                                                                                          "description": "",
+                                                                                                                          "photo": "",
+                                                                                                                          "children": []
+                                                                                                                        }
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                        "name": "Маргарита",
+                                                                                                                        "description": "Хамнуева",
+                                                                                                                        "isEnd": true,
+                                                                                                                        "photo": "",
+                                                                                                                        "spouse": {
+                                                                                                                          "name": "",
+                                                                                                                          "description": "",
+                                                                                                                          "photo": "",
+                                                                                                                          "children": []
+                                                                                                                        }
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                        "name": "Гера",
+                                                                                                                        "description": "Хамнуева",
+                                                                                                                        "isEnd": true,
+                                                                                                                        "photo": "",
+                                                                                                                        "spouse": {
+                                                                                                                          "name": "",
+                                                                                                                          "description": "",
+                                                                                                                          "photo": "",
+                                                                                                                          "children": []
+                                                                                                                        }
+                                                                                                                      }
+                                                                                                                    ]
                                                                                                                   }
                                                                                                                 }
                                                                                                               ]
